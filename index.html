@@ -3,9 +3,15 @@ layout: resume
 title: Justin Williamson
 subtitle: IT Professional
 use-site-title: true
-skills: one,two,three
+skills: 
+  -one
+  -two
+  -three
 ---
 
 <div class="col-lg-6">
-  {{page.skills}}
+  <ul>
+    {% for skill in page.skills %}
+    <li>{{skill}}</li>
+  </ul>
 </div>
