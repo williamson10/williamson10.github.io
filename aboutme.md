@@ -3,7 +3,10 @@ layout: page
 title: About me
 subtitle: Not saying I can - Saying I did
 ---
-[test](/resume/)
+[PowerShell](https://github.com/williamson10/PowerShell)
+[Python](https://github.com/williamson10/pyGridWars)
+[git](https://github.com/williamson10)
+[Jekyll](/)
 My name is Inigo Montoya. I have the following qualities:
 
 - I rock a great mustache
