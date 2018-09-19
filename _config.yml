@@ -23,9 +23,9 @@ description: Portfolio and Blog of Justin Williamson
 
 # List of links in the navigation bar
 navbar-links:
+  Resume: "tags"
   About Me: "aboutme"
   Resources:
-    - Resume: "tags"
     - Learn markdown: "http://www.markdowntutorial.com/"
     - GitHub Pages: "https://pages.github.com/"
   Author's home: "http://deanattali.com"
