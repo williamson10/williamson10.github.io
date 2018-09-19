@@ -1,18 +1,8 @@
 ---
 layout: page
 title: About me
-subtitle: Not saying I can - Saying I did
 ---
-[PowerShell](https://github.com/williamson10/PowerShell)
-[Python](https://github.com/williamson10/pyGridWars)
-[git](https://github.com/williamson10)
-[Jekyll](/)
-My name is Inigo Montoya. I have the following qualities:
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
+I have always been drawn to computers. As a teen in the 90's, computers were the future and I was hand typing QBASIC code from a book to see if it would run. This was fun for me and I still have that curiosity and dry sense of a good time. In my travels I have dabbled in a lot of things. I've played with [PowerShell](https://github.com/williamson10/PowerShell), [Python](https://github.com/williamson10/pyGridWars), [git](https://github.com/williamson10), [Jekyll](/), and others. I want this site and OpenLAB to be the culmination of all that experimentation. 
 
 ### my history
 
