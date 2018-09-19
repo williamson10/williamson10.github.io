@@ -23,14 +23,23 @@ skills2:
 <div class="col-lg-6">
   <ul class="list-group list-group-flush">
     {% for skill in page.skills1 %}
-    <li class="list-group-item"><i class="fa-li fa fa-compress"></i>{{skill}}</li>
+    <p id="{{- skill -}}" style="margin:inherit">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;{{- skill -}}&nbsp;
+    </p>
     {% endfor %}
   </ul>
 </div>
 <div class="col-lg-6">
   <ul class="list-group list-group-flush">
     {% for skill in page.skills2 %}
-    <li class="list-group-item"><i class="fa-li fa fa-compress"></i>{{skill}}</li>
+      <p id="{{- skill -}}" style="margin:inherit">
+        <i class="fa fa-tag" aria-hidden="true"></i>
+        &nbsp;{{- skill -}}&nbsp;
+      </p>
     {% endfor %}
   </ul>
 </div>
+
+
+
