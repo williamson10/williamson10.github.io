@@ -3,7 +3,7 @@ layout: page
 title: About me
 subtitle: Not saying I can - Saying I did
 ---
-[test](tags)
+[test](/tags/)
 My name is Inigo Montoya. I have the following qualities:
 
 - I rock a great mustache
