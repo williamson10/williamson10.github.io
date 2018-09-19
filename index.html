@@ -3,15 +3,33 @@ layout: resume
 title: Justin Williamson
 subtitle: IT Professional
 use-site-title: true
-skills: 
-  - one
-  - two
-  - three
+skills1: 
+  - Windows Server 2008/2012 R2
+  - Microsoft Exchange 2008/2013
+  - VMWare vCenter/ESXi
+  - Ubuntu/Debian Linux
+  - Office 365/Exchange Online/G Suite
+  - Windows 7/10
+
+skills2:
+  - TCP/IP Networking
+  - WiFi
+  - pfSense/Sophos Firewalls/UTM
+  - Android/iOS
+  - Trend Micro/Sophos/BitDefender
+  - Mitel 5000 Phone Systems
 ---
 
 <div class="col-lg-6">
   <ul class="list-group list-group-flush">
-    {% for skill in page.skills %}
+    {% for skill in page.skills1 %}
+    <li class="list-group-item"><i class="fa-li fa fa-compress"></i>{{skill}}</li>
+    {% endfor %}
+  </ul>
+</div>
+<div class="col-lg-6">
+  <ul class="list-group list-group-flush">
+    {% for skill in page.skills2 %}
     <li class="list-group-item"><i class="fa-li fa fa-compress"></i>{{skill}}</li>
     {% endfor %}
   </ul>
