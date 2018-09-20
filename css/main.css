@@ -573,6 +573,11 @@ footer .theme-by {
   }
 }
 
+.bg-secondary {
+  color: #fff;
+  background-color: #grey;
+}
+
 .caption {
   text-align: center;
   font-size: 14px;
