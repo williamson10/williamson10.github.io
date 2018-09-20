@@ -23,7 +23,7 @@ description: Portfolio and Blog of Justin Williamson
 
 # List of links in the navigation bar
 navbar-links:
-  OpenLAB: "openlab"
+  #OpenLAB: "openlab"
   Resume: "resume"
   About Me: "aboutme"
   Blog: "blog"
