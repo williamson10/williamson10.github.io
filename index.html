@@ -19,26 +19,32 @@ skills2:
   - Trend Micro/Sophos/BitDefender
   - Mitel 5000 Phone Systems
 ---
-
-<div class="col-sm-6">
-  <ul class="list-group list-group-flush">
-    {% for skill in page.skills1 %}
-    <p id="{{- skill -}}" style="margin:inherit">
-        <i class="fa fa-angle-right" aria-hidden="true"></i>
-        &nbsp;{{- skill -}}&nbsp;
-    </p>
-    {% endfor %}
-  </ul>
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Technical Experience</h3>
+  </div>
 </div>
-<div class="col-sm-6">
-  <ul class="list-group list-group-flush">
-    {% for skill in page.skills2 %}
+<div class="row">
+  <div class="col-sm-6">
+    <ul class="list-group list-group-flush">
+      {% for skill in page.skills1 %}
       <p id="{{- skill -}}" style="margin:inherit">
-        <i class="fa fa-angle-right" aria-hidden="true"></i>
-        &nbsp;{{- skill -}}&nbsp;
+          <i class="fa fa-angle-right" aria-hidden="true"></i>
+          &nbsp;{{- skill -}}&nbsp;
       </p>
-    {% endfor %}
-  </ul>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="col-sm-6">
+    <ul class="list-group list-group-flush">
+      {% for skill in page.skills2 %}
+        <p id="{{- skill -}}" style="margin:inherit">
+          <i class="fa fa-angle-right" aria-hidden="true"></i>
+          &nbsp;{{- skill -}}&nbsp;
+        </p>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
 
 
