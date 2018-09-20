@@ -573,6 +573,11 @@ footer .theme-by {
   }
 }
 
+.bg-header {
+  padding: 5em;
+  border-radius: 0px 0px 15px 15px;
+}
+
 .bg-secondary {
   color: #404040;
   background-color: #BEBDC1;
