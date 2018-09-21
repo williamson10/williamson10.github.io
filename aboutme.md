@@ -10,5 +10,5 @@ I have always been drawn to computers. As a teen in the 90's, computers were the
 
 ### Technologies Used
 {% for tech in page.techused %}
-  {{ tech }}
+  *{{ tech }}
 {% endfor %}
