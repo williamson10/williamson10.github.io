@@ -41,8 +41,10 @@ skills2:
     <ul class="list-group">
       {% for skill in page.skills2 %}
         <p id="{{- skill -}}" style="margin:inherit" class="float-right">
-          <span class="float-right">&nbsp;{{- skill -}}&nbsp;</span>
-          <i class="fa fa-angle-left" aria-hidden="true"></i>
+          <span class="pull-right">
+             &nbsp;{{- skill -}}&nbsp;
+             <i class="fa fa-angle-left" aria-hidden="true"></i>
+          </span>
         </p>
       {% endfor %}
     </ul>
