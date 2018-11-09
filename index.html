@@ -30,10 +30,12 @@ skills2:
   <div class="col-sm-6">
     <ul class="list-group list-group-flush">
       {% for skill in page.skills1 %}
-      <p id="{{- skill -}}" style="margin:inherit">
-          <i class="fa fa-angle-right" aria-hidden="true"></i>
-          &nbsp;{{- skill -}}&nbsp;
-      </p>
+        <span>
+          <p id="{{- skill -}}" style="margin:inherit">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+            &nbsp;{{- skill -}}&nbsp;
+          </p>
+      </span>
       {% endfor %}
     </ul>
   </div>
