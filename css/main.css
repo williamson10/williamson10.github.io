@@ -792,3 +792,9 @@ td.gutter {
   font-style: italic;
   font-size: 16px;
 }
+
+/* williamson10 edits */
+@font-face {
+  font-family: corpus;
+  src: url("/woff/CorpusProtoCorporationSerif.woff") format("woff"), url("/woff/CorpusProtoCorporationSerif.ttf")  format("truetype");
+}
