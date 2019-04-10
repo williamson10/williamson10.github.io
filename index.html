@@ -10,6 +10,19 @@ bigimg:
   - /img/slider/clint-adair-68588-unsplash.jpg
   - /img/slider/nathan-anderson-141325-unsplash.jpg
 meta-description: Home page of the personal website for Justin Williamson
+skills: 
+  - Ubuntu/Debian/CentOS
+  - VMWare/Proxmox
+  - Ansible
+  - Docker/LXC
+  - Python/Bash
+  - Powershell/Batch
+  - Windows Domains 
+  - Office 365/G Suite
+  - Windows 7/10
+  - TCP/IP Networking
+  - pfSense/Sophos Firewalls/UTM
+  - Trend Micro/Sophos/BitDefender
 ---
 
 <div class="row">
@@ -31,5 +44,22 @@ meta-description: Home page of the personal website for Justin Williamson
 
   </div>
 </div>
+<div class="row">
+    <div class="col-xs-12">
+      <div class="">
+        <h3 class="text-center">Technical Experience</h3>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    {% for skill in page.skills %}
+      <div class="col-sm-6">
+        <p style="margin:inherit">
+          <i class="fa fa-angle-right" aria-hidden="true"></i>
+          &nbsp;{{- skill -}}&nbsp;
+        </p>  
+      </div> 
+    {% endfor %}
+  </div>
 
 
