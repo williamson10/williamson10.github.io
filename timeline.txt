@@ -2,4 +2,4 @@ As a young teen I was tinkering with a hand-me-down computer and learning the in
 
 What really ignited my passion was the original Xbox and the moding community that surrounded it. By early 2000's I had a home network setup with a file server for all my "Linux ISO's" and was streaming them all around my network.
 
-As time went on, my homelab grew and the technologies that I employed expanded to include virtualization and advanced networking. Due to a limited personal budget I deployed open source solutions for most of my needs. As I entered the professional IT field, I have ran into many situations where I just have to ask myself, "People actually pay for this software!?"
+As time went on, my homelab grew and the technologies that I employed expanded to include virtualization and advanced networking. 
