@@ -1,0 +1,62 @@
+---
+layout: resume
+title: Justin Williamson
+subtitle: Information Technology Engineer
+use-site-title: true
+bigimg: 
+  - /img/boardman.jpg
+  - /img/path.jpg
+meta-description: Home page of the personal website for Justin Williamson
+skills1: 
+  - Windows Server 2008/2012 R2
+  - Microsoft Exchange 2008/2013
+  - VMWare vCenter/ESXi
+  - Ubuntu/Debian Linux
+  - WiFi
+  - Office 365/Exchange Online/G Suite
+  - Windows 7/10
+
+skills2:
+  - WiFi
+  - TCP/IP Networking
+  - pfSense/Sophos Firewalls/UTM
+  - Android/iOS
+  - Trend Micro/Sophos/BitDefender
+  - Mitel 5000 Phone Systems
+---
+<div class="row">
+  <div class="col-xs-12">
+    <div class="">
+      <h3 class="text-center">Technical Experience</h3>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6">
+    <ul class="list-group list-group-flush">
+      {% for skill in page.skills1 %}
+        <span>
+          <p id="{{- skill -}}" style="margin:inherit">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+            &nbsp;{{- skill -}}&nbsp;
+          </p>
+      </span>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="col-sm-6">
+    <ul class="list-group">
+      {% for skill in page.skills2 %}
+        <p id="{{- skill -}}" style="margin:inherit">
+          <span class="pull-right">
+             &nbsp;{{- skill -}}&nbsp;
+             <i class="fa fa-angle-left" aria-hidden="true"></i>
+          </span>
+        </p>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+
+
