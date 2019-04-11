@@ -24,9 +24,9 @@ description: Portfolio and Blog of Justin Williamson
 # List of links in the navigation bar
 navbar-links:
   #OpenLAB: "openlab"
-  Resume: "resume"
-  About Me: "aboutme"
+  About Me: "index"
   Knowlege Base: "kb"
+  Resume: "JustinWilliamsonResume.pdf"
  # Resources:
   #  - Learn markdown: "http://www.markdowntutorial.com/"
   #  - GitHub Pages: "https://pages.github.com/"
