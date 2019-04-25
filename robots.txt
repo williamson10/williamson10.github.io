@@ -2,5 +2,5 @@
 # www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
 
 User-agent: *
-Sitemap: https://www.jwilliamosn.me/sitemap.xml
+Sitemap: https://www.jwilliamson.me/sitemap.xml
 Disallow: /JustinWilliamsonResume.pdf
