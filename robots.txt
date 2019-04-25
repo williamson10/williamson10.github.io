@@ -3,4 +3,4 @@
 
 User-agent: *
 Sitemap: https://www.jwilliamosn.me/sitemap.xml
-Disalow: /JustinWilliamsonResume.pdf
+Disallow: /JustinWilliamsonResume.pdf
