@@ -20,7 +20,7 @@ title: 'Knowlege Base'
     <div class="post-list">
         {%- for post in site.tags[tag] -%}
             <div class="tag-entry">
-                <a href="{{- site.url -}}{{- post.url -}}">{{- post.title -}}</a>
+                <a href="{{- post.url -}}">{{- post.title -}}</a>
                
             </div>
         {%- endfor -%}
