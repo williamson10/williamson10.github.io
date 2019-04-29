@@ -13,4 +13,8 @@ Again the main issue I had for my Chromebook was the ARM processor. I could not 
 
 I [forked](https://github.com/williamson10/code-server-jekyll) code-server, edited the dockerfile and uploaded it to [docker hub](https://hub.docker.com/r/williamson10/code-server-jekyll). This works great. The one issue I have is that after a fresh provision, I need to run `bundle install` in a terminal once. I assume this is because my project files are not available to the container at build-time. I mount my project folder as a directory at run-time.
 
+I now have a browser based version of VSCode, able to serve and generate Jekyll sites and keep it all in sync with github. Life is great.
+
+![alt text](/img/2019-04-27/code-server.png "CodeServer with Jekyll")
+
 As I have also been playing with Terraform, [here](https://raw.githubusercontent.com/williamson10/terraform-docker-lab/master/code-server-jekyll.tf) is a bonus .tf file that will provision this for you. Bring your own docker provider config :)
